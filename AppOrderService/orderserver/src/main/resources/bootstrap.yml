@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: AppOrderService
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: APPCONFIGSERVER
+      profile: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

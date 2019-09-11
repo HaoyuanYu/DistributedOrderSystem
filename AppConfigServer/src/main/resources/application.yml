@@ -1,7 +1,20 @@
 spring:
   application:
     name: AppConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/HaoyuanYu/ConfigRepo.git
+          username: HaoyuanYu
+          password: MHshenqing###682374
+          basedir: E:\JavaProject\imooc\springcloud\configrepo
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

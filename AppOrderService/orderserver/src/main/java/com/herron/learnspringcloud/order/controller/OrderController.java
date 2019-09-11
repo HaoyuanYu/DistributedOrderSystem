@@ -10,6 +10,7 @@ import com.herron.learnspringcloud.order.utils.ResultVOUtils;
 import com.herron.learnspringcloud.order.utils.Utils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.util.CollectionUtils;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -24,6 +25,7 @@ import java.util.Objects;
 @RestController
 @RequestMapping("/order")
 @Slf4j
+@RefreshScope
 public class OrderController {
 
     @Autowired
