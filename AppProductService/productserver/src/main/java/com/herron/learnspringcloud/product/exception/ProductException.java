@@ -3,9 +3,6 @@ package com.herron.learnspringcloud.product.exception;
 
 import com.herron.learnspringcloud.product.enums.ResultEnum;
 
-/**
- * 2017-12-10 22:59
- */
 public class ProductException extends RuntimeException {
 
     private Integer code;

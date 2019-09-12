@@ -4,9 +4,6 @@ import lombok.Data;
 
 import java.math.BigDecimal;
 
-/**
- * 2017-12-09 21:23
- */
 @Data
 public class ProductInfoOutput {
 
