@@ -28,7 +28,7 @@
         <mysql.version>8.0.15</mysql.version>
         <logback-gelf.version>2.0.0</logback-gelf.version>
         <product-common.version>0.0.1-SNAPSHOT</product-common.version>
-        <apache-commons.version>1.19</apache-commons.version>
+        <apache-commons.version>1.21</apache-commons.version>
     </properties>
 
     <dependencyManagement>
